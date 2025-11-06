@@ -1,5 +1,5 @@
 # robosys
-![test](https://github.com/kamarakakara/robosys2025/blob/main/.github/workflows/test.yml/badge.svg)
+![test](https://github.com/kamarakakara/robosys2025/actions/workflows/test.yml/badge.svg)
 2025 robosys data
 
 - このソフトウェアパッケージは，3条項BSDライセンスの下，再頒布および使用が許可されます
