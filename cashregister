@@ -1,0 +1,24 @@
+#!/usr/bin/python3
+#SPDX-FileCopyrightText: 2025 Kamarakakara
+#SPDX-License-Identifier: BSD-3-Clause
+
+import sys
+import math
+
+nums = list(map(int, sys.argv[1:]))
+i = len(nums)
+
+total = 0
+tax = 1
+FA = 0
+
+for idx in range(0, i - 1, 2):
+    total += nums[idx] * nums[idx + 1]
+
+if i % 2 == 1:
+    tax = nums[-1] / 100 + 1
+
+FA = total * tax
+
+print(math.ceil(FA))
+
