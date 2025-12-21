@@ -6,7 +6,7 @@
 
 
 ## インストール方法
-以下の手順に従ってインストールを行い、実行権限の付与をおこなってください。
+以下のコマンドよりインストールを行い、実行権限の付与をおこなってください。
 ```
 $ mkdir cashregister
 $ cd cashregister
@@ -36,6 +36,6 @@ $ echo 1200 2 500 3 10 | ./cashregister
 
 ## 著作権・ライセンス
 - このソフトウェアパッケージは、3条項BSDライセンスの下、再頒布および使用が許可されます。
-- このパッケージのコードは、下記のスライド（CC-BY-SA 4.0 by Ryuichi Ueda）のものを、本人の許可を得て自身の著作としたものです。
+- このパッケージのコードは、下記のスライド（CC-BY-SA 4.0 by Ryuichi Ueda）のものを参考に製作され、本人の許可を得て自身の著作としたものです。
     - [ryuichiueda/my_slides robosys_2025](https://github.com/ryuichiueda/slides_marp/tree/master/robosys2025)
 - © 2025 kamarakakara
