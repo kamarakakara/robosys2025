@@ -20,5 +20,5 @@ if i % 2 == 1:
 
 FA = total * tax
 
-print(math.ceil(FA))
+print(math.floor(FA))
 
