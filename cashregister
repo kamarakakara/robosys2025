@@ -5,7 +5,7 @@
 import sys
 import math
 
-nums = list(map(int, sys.argv[1:]))
+nums = list(map(int, sys.stdin.read().split()))
 i = len(nums)
 
 total = 0
