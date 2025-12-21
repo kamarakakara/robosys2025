@@ -14,8 +14,8 @@ $ git clone https://github.com/kamarakakara/robosys2025
 
 ## 使い方
 ```
-$ echo  | ./cashregister
-
+$ echo 1200 2 500 3 10 | ./cashregister
+4290
 ```
 1. echoの後に価格と個数を入力します。複数個の場合は続けて入力を行います。
 2. 最後に税率を[%]で入力します。入力のない場合は税率を考慮しません。
@@ -28,7 +28,7 @@ $ echo  | ./cashregister
 - ubuntu-22.04
 
 ## 著作権・ライセンス
-- このソフトウェアパッケージは，3条項BSDライセンスの下，再頒布および使用が許可されます
-- このパッケージのコードは，下記のスライド（CC-BY-SA 4.0 by Ryuichi Ueda）のものを，本人の許可を得て自身の著作としたものです．
+- このソフトウェアパッケージは、3条項BSDライセンスの下、再頒布および使用が許可されます。
+- このパッケージのコードは、下記のスライド（CC-BY-SA 4.0 by Ryuichi Ueda）のものを、本人の許可を得て自身の著作としたものです。
     - [ryuichiueda/my_slides robosys_2025](https://github.com/ryuichiueda/slides_marp/tree/master/robosys2025)
 - © 2025 kamarakakara
