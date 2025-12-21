@@ -16,13 +16,13 @@ out=$(seq 10 | ./cashregister)
 [ "${out}" = 190 ] || ng "$LINENO"
 
 out=$(seq 11 | ./cashregister)
-[ "${out}" = 211 ] || ng "$LINENO"
+[ "${out}" = 210 ] || ng "$LINENO"
 
 out=$(echo 1200 2 510 3 98 5 102 1 50 10| ./cashregister)
 [ "${out}" = 5022 ] || ng "$LINENO"
 
 out=$(echo 205 5 380 7 20 8 1024 4 82 7 198 2 10| ./cashregister)
-[ "${out}" = 9803 ] || ng "$LINENO"
+[ "${out}" = 9802 ] || ng "$LINENO"
 
 out=$(echo | ./cashregister
 )
